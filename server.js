@@ -15,9 +15,9 @@ app.use(cors({
 
 
 
-//var corsOptions = {
-	//origin: "http://localhost:8081"
-//};
+var corsOptions = {
+	origin: "https://ukrainelodgeservicecloud.azurewebsites.net/"
+};
 
 
 
@@ -44,7 +44,7 @@ app.get("/", (req, res) => {
 
 
 // set port, listen for requests
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
 
 // Add Access Control Allow Origin headers
 app.use((req, res, next) => {

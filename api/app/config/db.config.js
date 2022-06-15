@@ -1,5 +1,5 @@
 module.exports = {
-    HOST: "lukrainelodgeservice.mysql.database.azure.com",
+    HOST: "ukrainelodgeservice.mysql.database.azure.com",
     USER: "root",
     PASSWORD: "Admin123456",
     DB: "ukrainelodgeservice",

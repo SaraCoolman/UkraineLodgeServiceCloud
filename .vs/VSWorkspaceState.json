@@ -2,11 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\api",
-    "\\api\\app",
-    "\\ui",
     "\\ui\\src",
     "\\ui\\src\\components",
     "\\ui\\src\\services"
   ],
+  "SelectedNode": "\\api",
   "PreviewInSolutionExplorer": false
 }

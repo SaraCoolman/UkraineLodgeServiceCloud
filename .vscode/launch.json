@@ -10,6 +10,13 @@
             "name": "Launch Chrome against localhost",
             "url": "https://ukrainelodgeservicecloud.azurewebsites.net/",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Node Functions",
+            "type": "node",
+            "request": "attach",
+            "port": 9229,
+            "preLaunchTask": "func: host start"
         }
     ]
 }
